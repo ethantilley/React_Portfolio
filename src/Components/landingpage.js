@@ -14,7 +14,19 @@ class Landing extends Component {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-        <Cell col={12}></Cell>
+        <Cell col={12}>
+          <img
+          src={require('../Media/ProfilePic.jpg')}
+          alt="ProfilePic"
+          className="ProfilePic"
+          />
+
+          <div className="Banner-Text">
+            <h1>Programmmer</h1>
+            <hr></hr>
+            <p>C# | C++ | CSS | HTML | JavaScript | Python </p>
+          </div>
+        </Cell>
         </Grid>
       </div>
     )
