@@ -9,6 +9,7 @@ import {
 } from 'react-mdl'
 
 import Main from './Components/main';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,20 +17,20 @@ function App() {
     <Layout>
         <Header title="Ethan Tilley" scroll>
             <Navigation>
-                <a href="/">Home</a>
-                <a href="/">Projects</a>
-                <a href="/">Resume</a>
-                <a href="/">Writings</a>
-                <a href="/">About Me</a>
+              <Link to="/landingpage">Home</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/writings">Writings</Link>
+              <Link to="/aboutme">About Me</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-            <a href="/">Home</a>
-            <a href="/">Projects</a>
-            <a href="/">Resume</a>
-            <a href="/">Writings</a>
-            <a href="/">About Me</a>
+              <Link to="/landingpage">Home</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/writings">Writings</Link>
+              <Link to="/aboutme">About Me</Link>
             </Navigation>
         </Drawer>
         <Content>
