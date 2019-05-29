@@ -8,12 +8,12 @@
 
 import React, { Component } from 'react';
 
-class LandingPage extends Component {
-  reder() {
-    return{
-      <div> <h1>LandingPage Page</h1> </div>
-    }
+class Landing extends Component {
+  render() {
+    return(
+      <div> <h1>Landing Page</h1> </div>
+    )
   }
 }
 
-export default LandingPage;
+export default Landing;

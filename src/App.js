@@ -8,6 +8,8 @@ import {
   Content
 } from 'react-mdl'
 
+import Main from './Components/main';
+
 function App() {
   return (
     <div className="demo-big-content">
@@ -32,7 +34,7 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
-            <h1> Testttttt </h1>
+            <Main/>
         </Content>
     </Layout>
 </div>

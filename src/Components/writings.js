@@ -10,10 +10,10 @@
 import React, { Component } from 'react';
 
 class Writings extends Component {
-  reder() {
-    return{
+  render() {
+    return(
       <div> <h1>Writings Page</h1> </div>
-    }
+    )
   }
 }
 

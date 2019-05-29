@@ -8,12 +8,12 @@
 
 import React, { Component } from 'react';
 
-class ____ extends Component {
-  reder() {
-    return{
-      <div> <h1>____ Page</h1> </div>
-    }
+class AboutMe extends Component {
+  render() {
+    return(
+      <div> <h1>AboutMe Page</h1> </div>
+    )
   }
 }
 
-export default ____;
+export default AboutMe;

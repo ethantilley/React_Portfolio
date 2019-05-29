@@ -10,10 +10,10 @@
 import React, { Component } from 'react';
 
 class Projects extends Component {
-  reder() {
-    return{
+  render() {
+    return(
       <div> <h1>Projects Page</h1> </div>
-    }
+    )
   }
 }
 
