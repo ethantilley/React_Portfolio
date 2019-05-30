@@ -8,7 +8,7 @@
 
 
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props) {
@@ -20,16 +20,83 @@ class Projects extends Component {
   toggleCategories() {
     if(this.state.activeTab === 0) {
       return(
-      <div><h1>Unity!!!</h1></div>
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background:
+
+          <img
+          src = {require('../Media/ProfilePic.jpg')}
+          alt = "Project1"
+          className = "Project1"
+          />
+
+          }}> Unity Project #1
+
+          </CardTitle>
+          <CardText>
+            This is a temp unity project!
+          </CardText>
+          <CardActions>
+            <Button colored> Itch.io </Button>
+            <Button colored> GitHub </Button>
+            <Button colored> More Info </Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
       )
     } else if(this.state.activeTab === 1) {
       return(
-      <div><h1>React!!!</h1></div>
-      )
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background:
+
+          <img
+          src = {require('../Media/ProfilePic.jpg')}
+          alt = "Project1"
+          className = "Project1"
+          />
+
+          }}> React Project #1
+
+          </CardTitle>
+          <CardText>
+            This is a temp React project!
+          </CardText>
+          <CardActions>
+            <Button colored> Itch.io </Button>
+            <Button colored> GitHub </Button>
+            <Button colored> More Info </Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>      )
     } else if(this.state.activeTab === 2) {
       return(
-      <div><h1>Xamarin!!!</h1></div>
-      )
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background:
+
+          <img
+          src = {require('../Media/ProfilePic.jpg')}
+          alt = "Project1"
+          className = "Project1"
+          />
+
+          }}> Xamarin Project #1
+
+          </CardTitle>
+          <CardText>
+            This is a temp Xamarin project!
+          </CardText>
+          <CardActions>
+            <Button colored> Itch.io </Button>
+            <Button colored> GitHub </Button>
+            <Button colored> More Info </Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>      )
     }
   }
 
