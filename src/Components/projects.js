@@ -9,7 +9,6 @@
 
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -20,85 +19,94 @@ class Projects extends Component {
   toggleCategories() {
     if(this.state.activeTab === 0) {
       return(
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
+        <div className = "project-unity-cards">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style=
+              {{
+                color: '#667db6',
+                height: '176px',
+                background: 'url(https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/f2e6b8e8-286a-49cf-9bcd-f79ad64402bf) top / cover'
 
-          <img
-          src = {require('../Media/ProfilePic.jpg')}
-          alt = "Project1"
-          className = "Project1"
-          />
 
-          }}> Unity Project #1
 
-          </CardTitle>
-          <CardText>
-            This is a temp unity project!
-          </CardText>
-          <CardActions>
-            <Button colored> Itch.io </Button>
-            <Button colored> GitHub </Button>
-            <Button colored> More Info </Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+            }}> Unity Project #1
+
+            </CardTitle>
+            <CardText>
+              This is a temp unity project!
+            </CardText>
+            <CardActions>
+              <Button colored> Itch.io </Button>
+              <Button colored> GitHub </Button>
+              <Button colored> More Info </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          
+        </div>
       )
     } else if(this.state.activeTab === 1) {
       return(
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
+        <div className = "project-react-cards">
 
-          <img
-          src = {require('../Media/ProfilePic.jpg')}
-          alt = "Project1"
-          className = "Project1"
-          />
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:  <img
+              src = {require('../Media/ProfilePic.jpg')}
+              alt = "Project1"
+              className = "Project1"
+              />
+            }}> React Project #1
 
-          }}> React Project #1
-
-          </CardTitle>
-          <CardText>
-            This is a temp React project!
-          </CardText>
-          <CardActions>
-            <Button colored> Itch.io </Button>
-            <Button colored> GitHub </Button>
-            <Button colored> More Info </Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>      )
+            </CardTitle>
+            <CardText>
+              This is a temp React project!
+            </CardText>
+            <CardActions>
+              <Button colored> Itch.io </Button>
+              <Button colored> GitHub </Button>
+              <Button colored> More Info </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+      )
     } else if(this.state.activeTab === 2) {
       return(
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
+        <div className = "project-unity-cards">
 
-          <img
-          src = {require('../Media/ProfilePic.jpg')}
-          alt = "Project1"
-          className = "Project1"
-          />
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background:
 
-          }}> Xamarin Project #1
+            <img
+            src = {require('../Media/ProfilePic.jpg')}
+            alt = "Project1"
+            className = "Project1"
+            />
 
-          </CardTitle>
-          <CardText>
-            This is a temp Xamarin project!
-          </CardText>
-          <CardActions>
-            <Button colored> Itch.io </Button>
-            <Button colored> GitHub </Button>
-            <Button colored> More Info </Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>      )
+            }}> Xamarin Project #1
+
+            </CardTitle>
+            <CardText>
+              This is a temp Xamarin project!
+            </CardText>
+            <CardActions>
+              <Button colored> Itch.io </Button>
+              <Button colored> GitHub </Button>
+              <Button colored> More Info </Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+      )
     }
   }
+
 
   render() {
     return(
@@ -112,7 +120,7 @@ class Projects extends Component {
 
         </Tabs>
 
-        <section className="projects-grid">
+
           <Grid className="projects-grid">
 
             <Cell col={12}>
@@ -122,7 +130,6 @@ class Projects extends Component {
             </Cell>
 
           </Grid>
-        </section>
       </div>
     )
   }
