@@ -11,7 +11,7 @@ import React, { Component } from 'react';
 
 class Writings extends Component {
   render() {
-    return(
+    return (
       <div> <h1>Writings Page</h1> </div>
     )
   }

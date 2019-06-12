@@ -1,27 +1,43 @@
   .header {
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-  .landing-grid{
-    background: #667db6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .landing-grid {
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-
   }
+
+  .fa-phone-square:hover {
+    color: white!important;
+  }
+  .fa-phone-square {
+    color: black!important;
+    padding-right: 0.5em;
+    font-size: 2em;
+  }
+
   .project-unity-cards {
     display: flex;
   }
-  .ts-images {
-    display:  flex;
 
+  .ts-images {
+    display: flex;
+    justify-content: center;
   }
 
   .ts-react {
@@ -33,24 +49,16 @@
     height: 200px;
   }
 
-  .ts-react:hover, .ts-css:hover {
-    transform: translateY(-5px) scale(1.05)!important;
+  .ts-react:hover,
+  .ts-css:hover {
+    transform: translateY(-5px) scale(1.05) !important;
 
   }
 
-  .reactTitle{
-  }
-
-  .ts-react, .ts-css {
+  .ts-react,
+  .ts-css {
     transform: translateY(0px) scale(1);
     transition: all 400ms ease-in-out;
-  }
-
-  .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
   }
 
   .Project1 {
@@ -59,82 +67,88 @@
   }
 
   .ProfilePic {
-
     height: 250px;
-    border-radius: 20px!important;
+    border-radius: 2em;
   }
 
-  .Banner-Text{
+  .banner-text {
     background-color: black;
     opacity: .8;
     width: 75%;
     margin: auto;
-    border-width: 10px
+    border-radius: 10px;
+  }
+
+  .banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+    margin: auto;
+  }
+
+  .social-icons i {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    padding: 8px;
   }
 
 
   .contact-body {
     margin: auto;
     background: grey;
-    position:  fixed;;
+    position: fixed;
     width: 100%;
     height: 100%;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 4em;
+    
   }
 
   .contact-grid {
 
     background: white;
     width: 80%;
-    height: 70%;
+    height: 80%;
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 10em;
     color: black;
-    border: 1px solid red;
-    margin-bottom: 20px;
+    border-radius: 8em;
+    border: 7px solid rgb(190, 190, 190);
   }
 
-  .contact-grid p {
-    padding-top: 15em;
+  .about-me {
+    background: white;
+    border: 7px solid rgb(10, 10, 10);
+    border-radius: 8em;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .about-me p {
+   width: 50%!important;
     text-align: justify;
   }
 
+  
   .contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
+    border-top: 30px line black;
+    width: 40%;
     margin: auto;
-  }
-
-
-  .Banner-Text h1{
-    font-size: 66px;
-    font-weight: bold;
-    color:  white;
-  }
-
-  .Banner-Text hr{
-    border-top: 5px dotted white;
-    width: 70%;
-    margin: auto;
-  }
-
-  .Banner-Text p{
-    font-size: 20px;
-    padding: 1em;
-    color:  white;
-  }
-
-  .social-links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-  }
-
-  .social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 8px;
   }

@@ -17,10 +17,10 @@ class Projects extends Component {
 
 
   toggleCategories() {
-    if(this.state.activeTab === 0) {
-      return(
-        <div className = "project-unity-cards">
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="project-unity-cards">
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style=
               {{
                 color: '#667db6',
@@ -29,8 +29,8 @@ class Projects extends Component {
 
 
 
-            }}> Unity Project #1
-
+              }}> Unity Project #1
+  
             </CardTitle>
             <CardText>
               This is a temp unity project!
@@ -40,25 +40,26 @@ class Projects extends Component {
               <Button colored> GitHub </Button>
               <Button colored> More Info </Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          
+
         </div>
       )
-    } else if(this.state.activeTab === 1) {
-      return(
-        <div className = "project-react-cards">
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="project-react-cards">
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:  <img
-              src = {require('../Media/ProfilePic.jpg')}
-              alt = "Project1"
-              className = "Project1"
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{
+              color: '#fff', height: '176px', background: <img
+                src={require('../Media/ProfilePic.jpg')}
+                alt="Project1"
+                className="Project1"
               />
             }}> React Project #1
-
+  
             </CardTitle>
             <CardText>
               This is a temp React project!
@@ -68,27 +69,28 @@ class Projects extends Component {
               <Button colored> GitHub </Button>
               <Button colored> More Info </Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 2) {
-      return(
-        <div className = "project-unity-cards">
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className="project-unity-cards">
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background:
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{
+              color: '#fff', height: '176px', background:
 
-            <img
-            src = {require('../Media/ProfilePic.jpg')}
-            alt = "Project1"
-            className = "Project1"
-            />
+                <img
+                  src={require('../Media/ProfilePic.jpg')}
+                  alt="Project1"
+                  className="Project1"
+                />
 
             }}> Xamarin Project #1
-
+  
             </CardTitle>
             <CardText>
               This is a temp Xamarin project!
@@ -98,7 +100,7 @@ class Projects extends Component {
               <Button colored> GitHub </Button>
               <Button colored> More Info </Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -109,10 +111,10 @@ class Projects extends Component {
 
 
   render() {
-    return(
+    return (
       <div className="project-category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) =>
-           this.setState({ activeTab: tabId })} ripple>
+          this.setState({ activeTab: tabId })} ripple>
 
           <Tab>Unity</Tab>
           <Tab>React</Tab>
@@ -121,15 +123,15 @@ class Projects extends Component {
         </Tabs>
 
 
-          <Grid className="projects-grid">
+        <Grid className="projects-grid">
 
-            <Cell col={12}>
+          <Cell col={12}>
 
             <div className="project-content"> {this.toggleCategories()}</div>
 
-            </Cell>
+          </Cell>
 
-          </Grid>
+        </Grid>
       </div>
     )
   }
