@@ -7,6 +7,17 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
+  .home-content {
+    display: block!important;
+    padding: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+
+  }
+
   .landing-grid {
     background: #667db6;
     /* fallback for old browsers */
@@ -15,11 +26,24 @@
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    position: fixed;
+    justify-content: center;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+  }
+  
+  
+
+  .fa-github {
+    color: white;
+    font-size: 8em;
+    justify-content: space-between;
+    opacity: 0.8;
+    transition: all 200ms ease-in-out;
+    width: 10%;
+  }
+
+  .fa-github:hover {
+    opacity: .9;
   }
 
   .fa-phone-square:hover {
@@ -99,27 +123,19 @@
 
   .social-icons {
     display: flex;
-    justify-content: space-between;
-    width: 200%;
     margin: auto;
+    overflow: auto;
   }
 
-  .social-icons i {
-    color: rgb(255, 255, 255);
-    font-size: 5em;
-    padding: 8px;
-  }
 
 
   .contact-body {
     margin: auto;
     background: grey;
-    position: fixed;
+
     width: 100%;
-    height: 100%;
     justify-content: center;
-    padding-top: 4em;
-    
+
   }
 
   .contact-grid {

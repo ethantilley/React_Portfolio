@@ -7,15 +7,27 @@
 import React, {
 	Component
 } from 'react';
+
+
 import {
 	Grid,
-	Cell
+	Cell,
+	Navigation,
+	Layout
 } from 'react-mdl';
 
+import  { Scroller, scrollInitalState } from 'react-scrollbar';
+
+import AboutMe from './aboutme.js';
+
 class Landing extends Component {
+
+	
 	render() {
 		return (
-			<div style={{ width: '100%', margin: 'auto' }} >
+		
+<Layout className="home-content">
+			<section className = "landing-page" style={{ width: '100%' }}>
 				<Grid className="landing-grid" >
 					<Cell col={12} row={12}>
 						<div>
@@ -23,6 +35,7 @@ class Landing extends Component {
 							<img src={require('../Media/ProfilePic.jpg')}
 								alt="ProfilePic"
 								className="ProfilePic"
+							
 							/>
 						</div>
 						<div className="technical-skills" >
@@ -53,16 +66,25 @@ class Landing extends Component {
 							<h1> Programmmer </h1>
 							<hr />
 							<p> C# | C++ | CSS | HTML | JavaScript | Python </p>
-								<i class="fa fw-fa fa-github"></i>
-							<div className="social-icons" >
-							</div>
-
+									<i className="fa fw-fa fa-github"/>
+									<i className="fa fw-fa fa-github"/>
+									<i className="fa fw-fa fa-github"/>
+									<i className="fa fw-fa fa-github"/>
+									
+								
 
 						</div>
-
+						
+						
+			
 					</Cell>
 				</Grid>
-			</div>
+			</section>
+		<section className = "aboutme-page" style={{ width: '100%' }}>
+			<AboutMe/>
+		
+		</section>
+		</Layout>
 		)
 	}
 }

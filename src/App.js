@@ -11,11 +11,23 @@ import {
 import Main from './Components/main';
 import { Link } from 'react-router-dom';
 
+import ScrollArea from 'react-scrollbar';
+
+
 function App() {
+
+
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header className="header" title="Ethan Tilley" scroll>
+        <Content>
+          <Main />
+        </Content>
+      </Layout>
+    </div>
+  );
+}
+/*        <Header className="header" title="Ethan Tilley">
           <Navigation className="header-nav">
             <Link to="/landingpage"><i className="fa fa-phone-square" aria-hidden="true" />
               Home</Link>
@@ -38,13 +50,5 @@ function App() {
             <Link to="/aboutme">About Me</Link>
           </Navigation>
         </Drawer>
-        <Content>
-          <div className="page-content" />
-          <Main />
-        </Content>
-      </Layout>
-    </div>
-  );
-}
-
+*/
 export default App;
