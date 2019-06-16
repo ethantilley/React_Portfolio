@@ -25,7 +25,7 @@ CMD: npm start
 
 ## Why
 
-I wanted to better showcase my knowledge of javescript, css and react, ALL while building a wedsite that I can call 100% my own.
+I wanted to better showcase my knowledge of javescript, css and react, ALL while building a website that I can call 100% my own.
 
 ## Goals With This Program
 - [ ] Implement all shiped projects for display.
