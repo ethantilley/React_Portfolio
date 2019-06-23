@@ -1,4 +1,4 @@
-## ReactJS_Portfolio
+## [ReactJS_Portfolio](https://ethantilley.github.io)<i> ~ link </i>
 
 Using React.JS, CSS & HTML, I'll be making my own [portfolio](https://www.ethantilley.com) to replace my squarespace site once the subscription ends. The design will largly be similar to my existing [portfolio](https://www.ethantilley.com).
 
