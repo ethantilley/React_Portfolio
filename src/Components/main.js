@@ -10,7 +10,7 @@ import Writings from './writings';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/landingpage" component={LandingPage} />
+    <Route exact component={LandingPage} />
     <Route path="/resume" component={Resume} />
     <Route path="/projects" component={Projects} />
     <Route path="/aboutme" component={AboutMe} />
