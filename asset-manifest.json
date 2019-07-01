@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5540d33c.chunk.css",
-    "main.js": "/static/js/main.8a5feb6b.chunk.js",
-    "main.js.map": "/static/js/main.8a5feb6b.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.04aae6c4.chunk.css": "/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.400fd385.chunk.js": "/static/js/2.400fd385.chunk.js",
-    "static/js/2.400fd385.chunk.js.map": "/static/js/2.400fd385.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d0e9f20a311a8e033060f7fa892597ac.js": "/precache-manifest.d0e9f20a311a8e033060f7fa892597ac.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.04aae6c4.chunk.css.map": "/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.5540d33c.chunk.css.map": "/static/css/main.5540d33c.chunk.css.map",
-    "static/media/ProfilePic.jpg": "/static/media/ProfilePic.df90da13.jpg",
-    "static/media/css-logo.png": "/static/media/css-logo.04cf122b.png"
+    "main.css": "/React_Portfolio/static/css/main.5540d33c.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.1ba28206.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.1ba28206.chunk.js.map",
+    "runtime~main.js": "/React_Portfolio/static/js/runtime~main.47646755.js",
+    "runtime~main.js.map": "/React_Portfolio/static/js/runtime~main.47646755.js.map",
+    "static/css/2.04aae6c4.chunk.css": "/React_Portfolio/static/css/2.04aae6c4.chunk.css",
+    "static/js/2.385452f1.chunk.js": "/React_Portfolio/static/js/2.385452f1.chunk.js",
+    "static/js/2.385452f1.chunk.js.map": "/React_Portfolio/static/js/2.385452f1.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.2275c5e1e84f60ae8176549e13ac65c9.js": "/React_Portfolio/precache-manifest.2275c5e1e84f60ae8176549e13ac65c9.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/2.04aae6c4.chunk.css.map": "/React_Portfolio/static/css/2.04aae6c4.chunk.css.map",
+    "static/css/main.5540d33c.chunk.css.map": "/React_Portfolio/static/css/main.5540d33c.chunk.css.map",
+    "static/media/ProfilePic.jpg": "/React_Portfolio/static/media/ProfilePic.df90da13.jpg",
+    "static/media/css-logo.png": "/React_Portfolio/static/media/css-logo.04cf122b.png"
   }
 }
