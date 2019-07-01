@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ethantilley.github.io/React_Portfolio",
+  "homepage": "http://ethantilley.github.io/React_Portfolio/",
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "react-scripts": "3.0.1"
