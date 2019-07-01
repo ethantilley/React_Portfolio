@@ -9,6 +9,7 @@ import Writings from './writings';
 
 
 const Main = () => (
+  
   <HashRouter>
     <Route exact component={LandingPage} />
     <Route path="/resume" component={Resume} />

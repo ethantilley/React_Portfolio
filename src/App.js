@@ -20,6 +20,20 @@ function App() {
   return (
     <div className="demo-big-content">
       <Layout>
+      <Header className="header" title="Ethan Tilley">
+          <Navigation >
+            <Link to="/landingpage" className="header-nav">
+              Home</Link>
+            <Link to="/projects" className="header-nav">
+              Projects</Link>
+            <Link to="/resume" className="header-nav">
+              Resume</Link>
+            <Link to="/writings" className="header-nav">
+              Writings</Link>
+            <Link to="/aboutme" className="header-nav">
+              About Me</Link>
+          </Navigation>
+        </Header>
         <Content>
           <Main />
         </Content>

@@ -18,7 +18,8 @@ import {
 
 import  { Scroller, scrollInitalState } from 'react-scrollbar';
 
-import AboutMe from './aboutme.js';
+import AboutMe from './aboutme';
+import TechSkills from './technicalskills';
 
 class Landing extends Component {
 
@@ -27,17 +28,19 @@ class Landing extends Component {
 		return (
 		
 <Layout className="home-content">
-			<section className = "landing-page" style={{ width: '100%' }}>
+	
+		<section className = "aboutme-page" style={{ width: '100%' }}>
+			<AboutMe/>
+		
+		</section>
+
+		<section className="tech-skills-page " style={{ width: '100%' }}>
+			<TechSkills/>
+		</section>
+			{/* <section className = "landing-page" style={{ width: '100%' }}>
 				<Grid className="landing-grid" >
 					<Cell col={12} row={12}>
-						<div>
-
-							<img src={require('../Media/ProfilePic.jpg')}
-								alt="ProfilePic"
-								className="ProfilePic"
-							
-							/>
-						</div>
+					
 						<div className="technical-skills" >
 							<h1> Technical Skills </h1>
 							<hr />
@@ -79,11 +82,8 @@ class Landing extends Component {
 			
 					</Cell>
 				</Grid>
-			</section>
-		<section className = "aboutme-page" style={{ width: '100%' }}>
-			<AboutMe/>
+			</section> */}
 		
-		</section>
 		</Layout>
 		)
 	}

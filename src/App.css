@@ -1,9 +1,9 @@
   .header {
-    background: #000046;
+    background: white;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* background: -webkit-linear-gradient(to right, #1CB5E0, #000046); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* background: linear-gradient(to right, #1CB5E0, #000046); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
@@ -91,8 +91,9 @@
   }
 
   .ProfilePic {
-    height: 250px;
-    border-radius: 2em;
+    justify-content: center;
+    height: 350px;
+    border-radius: 1em;
   }
 
   .banner-text {
@@ -127,44 +128,56 @@
     overflow: auto;
   }
 
+  .aboutme-photo {
+    
+  }
 
 
-  .contact-body {
+  .about-body {
     margin: auto;
-    background: grey;
+    background: white;
 
     width: 100%;
     justify-content: center;
 
   }
 
-  .contact-grid {
+  .about-grid {
 
     background: white;
-    width: 80%;
+    color: white;
     height: 80%;
+    width: 80%;
+  }
+
+  .about-me-info {
+    background: white;    
     text-align: center;
     color: black;
-    border-radius: 8em;
-    border: 7px solid rgb(190, 190, 190);
   }
 
-  .about-me {
-    background: white;
-    border: 7px solid rgb(10, 10, 10);
-    border-radius: 8em;
-    justify-content: center;
-    height: 100%;
-  }
-
-  .about-me p {
-   width: 50%!important;
-    text-align: justify;
+  .page-title {
+    color: black;
   }
 
   
-  .contact-grid hr {
-    border-top: 30px line black;
-    width: 40%;
+  .tech-skills-body {
     margin: auto;
+    background: white;
+
+    width: 100%;
+    justify-content: center;
+
   }
+
+  .tech-skills-grid {
+
+    background: white;
+    color: white;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+  }
+
+ 
