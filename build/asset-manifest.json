@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactJS_Portfolio/static/css/main.5540d33c.chunk.css",
-    "main.js": "/ReactJS_Portfolio/static/js/main.b22cbfa9.chunk.js",
-    "main.js.map": "/ReactJS_Portfolio/static/js/main.b22cbfa9.chunk.js.map",
-    "runtime~main.js": "/ReactJS_Portfolio/static/js/runtime~main.4e2b2552.js",
-    "runtime~main.js.map": "/ReactJS_Portfolio/static/js/runtime~main.4e2b2552.js.map",
-    "static/css/2.04aae6c4.chunk.css": "/ReactJS_Portfolio/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.400fd385.chunk.js": "/ReactJS_Portfolio/static/js/2.400fd385.chunk.js",
-    "static/js/2.400fd385.chunk.js.map": "/ReactJS_Portfolio/static/js/2.400fd385.chunk.js.map",
-    "index.html": "/ReactJS_Portfolio/index.html",
-    "precache-manifest.e46060afb713cf19b24b3dfce7f624f2.js": "/ReactJS_Portfolio/precache-manifest.e46060afb713cf19b24b3dfce7f624f2.js",
-    "service-worker.js": "/ReactJS_Portfolio/service-worker.js",
-    "static/css/2.04aae6c4.chunk.css.map": "/ReactJS_Portfolio/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.5540d33c.chunk.css.map": "/ReactJS_Portfolio/static/css/main.5540d33c.chunk.css.map",
-    "static/media/ProfilePic.jpg": "/ReactJS_Portfolio/static/media/ProfilePic.df90da13.jpg",
-    "static/media/css-logo.png": "/ReactJS_Portfolio/static/media/css-logo.04cf122b.png"
+    "main.css": "/static/css/main.5540d33c.chunk.css",
+    "main.js": "/static/js/main.8a5feb6b.chunk.js",
+    "main.js.map": "/static/js/main.8a5feb6b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.04aae6c4.chunk.css": "/static/css/2.04aae6c4.chunk.css",
+    "static/js/2.400fd385.chunk.js": "/static/js/2.400fd385.chunk.js",
+    "static/js/2.400fd385.chunk.js.map": "/static/js/2.400fd385.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d0e9f20a311a8e033060f7fa892597ac.js": "/precache-manifest.d0e9f20a311a8e033060f7fa892597ac.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.04aae6c4.chunk.css.map": "/static/css/2.04aae6c4.chunk.css.map",
+    "static/css/main.5540d33c.chunk.css.map": "/static/css/main.5540d33c.chunk.css.map",
+    "static/media/ProfilePic.jpg": "/static/media/ProfilePic.df90da13.jpg",
+    "static/media/css-logo.png": "/static/media/css-logo.04cf122b.png"
   }
 }
