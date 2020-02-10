@@ -2,7 +2,7 @@ import React from 'react';
 import {HashRouter, Route } from 'react-router-dom';
 
 import LandingPage from './landingpage';
-import AboutMe from './aboutme';
+import AboutMe from './AboutMe/aboutme.js';
 import Projects from './projects';
 import Resume from './resume';
 import Writings from './writings';

@@ -9,60 +9,23 @@ import {
 } from 'react-mdl'
 
 import Main from './Components/main';
+import HeaderBar from './Components/headerbar';
 import { Link } from 'react-router-dom';
 
 import ScrollArea from 'react-scrollbar';
 
 
 function App() {
-
-
   return (
     <div className="demo-big-content">
       <Layout>
-      <Header className="header" title="Ethan Tilley">
-          <Navigation >
-            <Link to="/landingpage" className="header-nav">
-              Home</Link>
-            <Link to="/projects" className="header-nav">
-              Projects</Link>
-            <Link to="/resume" className="header-nav">
-              Resume</Link>
-            <Link to="/writings" className="header-nav">
-              Writings</Link>
-            <Link to="/aboutme" className="header-nav">
-              About Me</Link>
-          </Navigation>
-        </Header>
+        <HeaderBar/>
         <Content>
-          <Main />
+          <Main/>
         </Content>
       </Layout>
     </div>
   );
 }
-/*        <Header className="header" title="Ethan Tilley">
-          <Navigation className="header-nav">
-            <Link to="/landingpage"><i className="fa fa-phone-square" aria-hidden="true" />
-              Home</Link>
-            <Link to="/projects"><i className="fa fa-phone-square" aria-hidden="true" />
-              Projects</Link>
-            <Link to="/resume"><i className="fa fa-phone-square" aria-hidden="true" />
-              Resume</Link>
-            <Link to="/writings"><i className="fa fa-phone-square" aria-hidden="true" />
-              Writings</Link>
-            <Link to="/aboutme"><i className="fa fa-phone-square" aria-hidden="true" />
-              About Me</Link>
-          </Navigation>
-        </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="/landingpage">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/writings">Writings</Link>
-            <Link to="/aboutme">About Me</Link>
-          </Navigation>
-        </Drawer>
-*/
+
 export default App;

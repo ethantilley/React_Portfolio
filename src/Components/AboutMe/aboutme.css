@@ -1,0 +1,24 @@
+  .about-body {
+    margin: auto;
+    background: white;
+
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  .about-grid {
+    background: white;
+    color: white;
+    height: 80%;
+    width: 80%;
+  }
+
+  .about-me-info {
+    background: white;    
+    text-align: center;
+    color: black;
+  }
+
+  .about-me-photo {
+  }

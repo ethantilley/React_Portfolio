@@ -18,73 +18,70 @@ import {
 
 import  { Scroller, scrollInitalState } from 'react-scrollbar';
 
-import AboutMe from './aboutme';
+import AboutMe from './AboutMe/aboutme.js';
 import TechSkills from './technicalskills';
 
-class Landing extends Component {
-
-	
+class Landing extends Component {	
 	render() {
-		return (
-		
-<Layout className="home-content">
-	
-		<section className = "aboutme-page" style={{ width: '100%' }}>
-			<AboutMe/>
-		
-		</section>
-
-		<section className="tech-skills-page " style={{ width: '100%' }}>
-			<TechSkills/>
-		</section>
-			{/* <section className = "landing-page" style={{ width: '100%' }}>
-				<Grid className="landing-grid" >
-					<Cell col={12} row={12}>
-					
-						<div className="technical-skills" >
-							<h1> Technical Skills </h1>
-							<hr />
-							<div className="ts-images">
-
-								<div className="react-img">
-									<img src={require('../Media/react-logo.png')}
-										alt="ts-react"
-										className="ts-react"
-									/>
-
-								</div>
-
-								<div className="css-img" >
-									<img src={require('../Media/css-logo.png')}
-										alt="ts-css"
-										className="ts-css"
-									/>
-								</div>
-
-							</div>
-						</div>
-
-						<div className="banner-text" >
-
-							<h1> Programmmer </h1>
-							<hr />
-							<p> C# | C++ | CSS | HTML | JavaScript | Python </p>
-									<i className="fa fw-fa fa-github"/>
-									<i className="fa fw-fa fa-github"/>
-									<i className="fa fw-fa fa-github"/>
-									<i className="fa fw-fa fa-github"/>
-									
-								
-
-						</div>
-						
-						
+		return (		
+		<Layout className="home-content">
 			
-					</Cell>
-				</Grid>
-			</section> */}
-		
-		</Layout>
+				<section className = "aboutme-page" style={{ width: '100%' }}>
+					<AboutMe/>
+				
+				</section>
+
+				<section className="tech-skills-page " style={{ width: '100%' }}>
+					<TechSkills/>
+				</section>
+					{/* <section className = "landing-page" style={{ width: '100%' }}>
+						<Grid className="landing-grid" >
+							<Cell col={12} row={12}>
+							
+								<div className="technical-skills" >
+									<h1> Technical Skills </h1>
+									<hr />
+									<div className="ts-images">
+
+										<div className="react-img">
+											<img src={require('../Media/react-logo.png')}
+												alt="ts-react"
+												className="ts-react"
+											/>
+
+										</div>
+
+										<div className="css-img" >
+											<img src={require('../Media/css-logo.png')}
+												alt="ts-css"
+												className="ts-css"
+											/>
+										</div>
+
+									</div>
+								</div>
+
+								<div className="banner-text" >
+
+									<h1> Programmmer </h1>
+									<hr />
+									<p> C# | C++ | CSS | HTML | JavaScript | Python </p>
+											<i className="fa fw-fa fa-github"/>
+											<i className="fa fw-fa fa-github"/>
+											<i className="fa fw-fa fa-github"/>
+											<i className="fa fw-fa fa-github"/>
+											
+										
+
+								</div>
+								
+								
+					
+							</Cell>
+						</Grid>
+					</section> */}
+				
+				</Layout>
 		)
 	}
 }
